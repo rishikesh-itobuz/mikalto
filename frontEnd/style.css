@@ -1,0 +1,72 @@
+/* Navbar section styles starts here */
+.red-dot {
+    height: 20%;
+    position: relative;
+    top: 20px;
+}
+
+.hamburger {
+    position: absolute;
+    top: 25px;
+    left:85vw ;
+}
+
+.visibility {
+    display: none !important;
+}
+
+.nav-item:hover {
+    border-bottom: 2px solid rgb(72, 72, 120);
+    transition-delay: .2s;
+}
+
+.input-box {
+    width: 100px;
+    outline: none !important;
+    border-radius: 3px !important;
+}
+
+@media (min-width:768px) {
+    .visibility {
+        display: block !important;
+    }
+}
+
+/* Navbar section styles ends here */
+
+
+/* Hero section styles starts here */
+#hero-section {
+    background-image: url('./img/edvin-johansson-rlwE8f8anOc-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+    
+}
+
+/*Welcome section starts here*/
+
+.welcome-image1 {
+    
+    height:50vh !important;
+    width: 20vw !important;
+   
+}
+
+.welcome-image2 {
+    position: absolute;
+    left: 40%;
+    top: 25%;
+    height:35vh !important;
+    width: 35vw !important;
+   
+}
+
+.welcome-image3 {
+    position: absolute;
+    left: 20%;
+    top: 70%;
+    height:30vh !important;
+    width: 35vw !important;
+   
+}
