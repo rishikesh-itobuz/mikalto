@@ -160,9 +160,16 @@
     background-color:#fffaf6;
 }
 
-.clientImage {
+.client-image {
     width: 60px !important;
     height: 60px !important;
+}
+
+/* How to get  there section starts here */
+
+.vehicle-image {
+    width: 50px !important;
+    height: 50px !important;
 }
 
 /* Join us section starts here */
