@@ -37,7 +37,7 @@
 
 /* Hero section styles starts here */
 #hero-section {
-    background-image: url('./img/edvin-johansson-rlwE8f8anOc-unsplash.jpg');
+    background-image: url('./img/hero.jpg');
     background-repeat: no-repeat;
     background-size: cover;
    
@@ -46,27 +46,132 @@
 
 /*Welcome section starts here*/
 
-.welcome-image1 {
+@media (min-width:300px){
+
+    .welcome-image1 {
+        height:60vh !important;
+        width: 35vw !important;
+       
+    }
     
-    height:50vh !important;
-    width: 20vw !important;
+    .welcome-image2 {
+        position: absolute;
+        left: 30%;
+        top: 16%;
+        height:46vh !important;
+        width: 60vw !important;
+       
+    }
+    
+    .welcome-image3 {
+        position: absolute;
+        left: 20%;
+        top: 65%;
+        height:30vh !important;
+        width: 55vw !important;
+       
+    }
+}
+
+
+@media (min-width:768px) {
+
+    .welcome-image1 {
+        height:65vh !important;
+        width: 20vw !important;
+    
+    }
+
+    .welcome-image2 {
+        position: absolute;
+        left: 30%;
+        top: 13%;
+        height:50vh !important;
+        width: 35vw !important;
+    
+    }
+
+    .welcome-image3 {
+        position: absolute;
+        left: 20%;
+        top: 65%;
+        height:30vh !important;
+        width: 35vw !important;
+    
+    }
+
+}
+
+/* Standard section starts here */
+
+.standard-room {
+    background-color: #0a205c;
+}
+
+@media (min-width:300px) {
+    .sliders {
+        height: 350px !important;
+        width: 100% !important;
+    }
+}
+
+@media (min-width:768px) {
+    .sliders {
+        height: 500px !important;
+        width: 100% !important;
+    }
+}
+
+/* Why choose section starts here */
+
+.why-choose-img {
+    width: 80px !important;
+    height: 60px !important;
+}
+
+/* Explore  and booking section starts here */
+
+.explore-booking {
+    background-color: #0a205c;
+}
+
+.explore-book-img {
+    height: 470px !important;
+    width: 100% !important;
+}
+
+/* Experience section starts here */
+
+.experience-image {
+    height: 300px !important;
+}
+
+/* Say hello section starts gere */
+
+.say-hello {
+    background-image: url('./img/swimming.jpeg');
+    background-size: cover;
    
 }
 
-.welcome-image2 {
-    position: absolute;
-    left: 40%;
-    top: 25%;
-    height:35vh !important;
-    width: 35vw !important;
-   
+/* Review section starts here */
+
+.review {
+    background-color:#fffaf6;
 }
 
-.welcome-image3 {
-    position: absolute;
-    left: 20%;
-    top: 70%;
-    height:30vh !important;
-    width: 35vw !important;
-   
+.clientImage {
+    width: 60px !important;
+    height: 60px !important;
+}
+
+/* Join us section starts here */
+
+.join-us {
+    background-color:#fffaf6;
+}
+
+.join-img {
+    position: relative;
+    top: -90px;
 }
