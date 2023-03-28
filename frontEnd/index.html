@@ -7,8 +7,7 @@
     , initial-scale=1.0">
     <title>Restaurant</title>
     <link rel="stylesheet" href="./style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/f250873f9c.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -41,63 +40,62 @@
 
     <!--Hero section starts here-->
 
-    <div class="row" id="hero-section">
+    <section class="row" id="hero-section">
       
-        <div class="d-flex flex-column justify-content-center col-md-5 offset-1 col-11 mt-4 text-start fs-md-3 gap-3 mt-5">
-                <h1 class="text-light">Increase your web</h1>
-                <p class="text-light">It is a long established fact that a </p>
+        <div class="offset-1 col-11 col-md-5 d-flex flex-column justify-content-center text-light mt-4 text-start fs-md-3 gap-3 mt-5">
+                <h1>Increase your web</h1>
+                <p >It is a long established fact that a </p>
                 <div class="">
                     <button type="submit" class="btn bg-light me-5 py-2 px-3">About Us</button>
                     <button type="submit" class="btn text-light  me-5 p-2 text-center">View Homestay  <i class="fa-solid fa-arrow-right float-end text-center ps-1 pt-1" ></i></button>
                 </div>
-            
         </div>
-        <div class="col-md-4 offset-md-1 offset-2 col-8 mt-5 hero-form">
-            <form action="" class="mt-5 bg-light p-5 mb-5" >
+
+        <div class="offset-2 col-8 offset-md-0  col-md-5  my-5 hero-form" >
+            <form action="" method="POST" class="mt-5 bg-light p-5 mb-5" >
                 <h5>Search Room</h5>
                 <p>Get the latest on our covid-19 RESPONSE</p>
-                <div class="d-flex  mb-3">
-                    <label for="" class="w-50"><i class="fa-solid fa-calendar-days "></i>Checkin *</label>
-                    <label for="" class="w-50"><i class="fa-solid fa-calendar-days ms-4"></i>Checkout *</label>
+                <div class="d-flex gap-3">
+                    <label for="" class="w-50"><i class="fa-solid fa-calendar-days me-3"></i>Checkin *</label>
+                    <label for="" class="w-50"><i class="fa-solid fa-calendar-days me-3"></i>Checkout *</label>
                 </div>
-                <div class="d-flex mb-4">
-                   <input type="date" name="" id="" class="w-50 border-top-0 border-start-0 border-end-0"> 
-                   <input type="date" name="" id="" class="ms-5 w-50 border-top-0 border-start-0 border-end-0"> 
+                <div class="d-flex mt-3 mb-3">
+                   <input type="date" name="startDate" id="" class="w-50 border-top-0 border-start-0 border-end-0"> 
+                   <input type="date" name="" id="endDate" class="ms-5 w-50 border-top-0 border-start-0 border-end-0"> 
                 </div>
+            
                <i class="fa-regular fa-user "></i>
                <label for="" class="ms-2">Adult</label>
-               <input type="number" class="d-block w-100 mt-2 mb-3 border-top-0 border-start-0 border-end-0">
+               <input type="number" name="chidCount" class="d-block w-100 mt-2 mb-3 border-top-0 border-start-0 border-end-0">
 
                <i class="fa-solid fa-child"></i>
                <label for="" class="ms-2">Children</label>
-               <input type="number" class="d-block w-100 mt-2  border-top-0 border-start-0 border-end-0">
+               <input type="number" name="adultCount" class="d-block w-100 mt-2  border-top-0 border-start-0 border-end-0">
 
-               <button type="submit" class="mt-4 w-100 p-2 bg-primary fw-semibold text-light border-0">Check Avaibiity</button>
+               <button type="submit" class="btn mt-4 w-100 p-2  text-light border-0" style="background-color: #0a205c;">Check Avaibiity</button>
             </form>
         </div>
-    </div>
+    </section>
 <!--Hero section ends here-->
 
 <!--Welcome section starts here-->
 
 
-<section class=" py-5 mb-5  "  >
+<section class=" py-5 mb-5"  >
     <div class="row mt-1 business">
-      <div class="mt-3 col-md-4 offset-1 col-10 pt-4 mt-5">
-        <p>Welcome to</p>
-        <p class="col-md-7 col-10 fs-2">Perfect Solution For & Your Business</p>
-        <p class="c mt-4">It is a long established fact that a reader will be distracted by the readable content of a page
-            when It is a long .It is a long established fact that a reader will</p>
-        <img src="./img/signature.jpg" alt="signature" class="bg-light">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, nobis?
-        </p>
-      </div>
-      <div class="mt-3 pt-4 col-md-6 offset-1 offset-md-0 col-10 position-relative ms-5 mt-5">
-        <img src="./img/welcome1.jpg" alt="Welcome section images" class="img-fluid welcome-image1 ">
-        <img src="./img/welcome2.jpg" alt="Welcome section images" class="img-fluid welcome-image2 ">
-        <img src="./img/welcome1.jpg" alt="Welcome section images" class="img-fluid welcome-image3 ">
-     </div>
-   </div>
+        <div class="offset-1 col-10 col-md-4 pt-4 mt-5">
+            <p>Welcome to</p>
+            <p class="col-md-7 col-10 fs-2">Perfect Solution For & Your Business</p>
+            <p class="c mt-4">It is a long established fact that a reader will be distracted by the readable content of a page when It is a long .It is a long established fact that a reader will</p>
+            <img src="./img/signature.jpg" alt="signature" class="bg-light">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, nobis?</p>
+        </div>
+        <div class="mt-3 pt-4 col-md-6 offset-1 offset-md-0 col-10 position-relative ms-5 mt-5">
+            <img src="./img/welcome1.jpg" alt="Welcome section images" class="img-fluid welcome-image1 z-0 ">
+            <img src="./img/welcome2.jpg" alt="Welcome section images" class="img-fluid welcome-image2 z-1">
+            <img src="./img/welcome1.jpg" alt="Welcome section images" class="img-fluid welcome-image3 z-2">
+        </div>
+    </div>
 </section>
 
 <!--Welcome section ends here-->
@@ -105,31 +103,36 @@
 <!--Standard room section starts here-->
 
 <section class="row standard-room  ">
-<div class="col-md-4 offset-1 text-light  pe-5 mt-5 col-11">
-    <p class="m-0 text-warning mt-5">ELEGANT AND COMFORT</p>
-    <p class="fs-3 ">Standard Room</p>
-    <p>From: $150 / night</p>
-    <p>With wide and comfortable areas and daylight pouring in from the...</p>
-    <div class="d-flex justify-content-between">
-        <div>
-            <p>Bed:</p>
-            <p>Capacity:</p>
-            <p>Room size: </p>
-            <p>View:</p>
+    <div class="offset-1 col-11 col-md-4  text-light  pe-5 mt-5 ">
+        <p class="m-0 text-warning mt-5">ELEGANT AND COMFORT</p>
+        <p class="fs-3 ">Standard Room</p>
+        <p>From: $150 / night</p>
+        <p>With wide and comfortable areas and daylight pouring in from the...</p>
+        <div class="d-flex justify-content-between">
+            <div>
+                <p>Bed:</p>
+                <p>Capacity:</p>
+                <p>Room size: </p>
+                <p>View:</p>
+            </div>
+            <div>
+                <p>Queen size image</p>
+                <p>2 adults,1children</p>
+                <p>55 sqm </p>
+                <p>garden view</p>
+            </div>
 
         </div>
-        <div>
-            <p>Queen size image</p>
-            <p>2 adults,1children</p>
-            <p>55 sqm </p>
-            <p>garden view</p>
-        </div>
+    </div>
+    <div class="col-12 col-md-7  pe-0  mt-5 mt-md-0 position-relative ">
+        <img src="./img/sliderImg1.jpg" alt="Slider" class="sliders">
+        <img src="./img/sliderImg2.jpg" alt="Slider" class="sliders hide">
+        <img src="./img/sliderImg3.jpg" alt="Slider" class="sliders hide">
+        <img src="./img/sliderImg4.jpg" alt="Slider" class="sliders hide">
+        <i class="fa-solid fa-circle-chevron-left bg-dark text-light p-0 m-0  fs-1 " id="previous"></i>
+        <i class="fa-solid fa-circle-chevron-right text-light bg-dark  fs-1" id="next"></i>
 
     </div>
-</div>
-<div class="col-md-7  pe-0 col-12 mt-5 mt-md-0 ">
-  <img src="./img/sliderImg1.jpg" alt="Slider" class="sliders">
-</div>
 </section>
 
 
@@ -139,35 +142,25 @@
 
 <section class="row pt-5 pb-5">
     <p class="offset-2 col-9 mt-4 fs-2 ps-5">Why choose our hotel?</p>
- 
-    <div class="col-lg-3 offset-lg-2 d-flex mt-4 col-10 offset-1">
+    <div class="col-10 offset-1 col-lg-3 offset-lg-2 d-flex mt-4 ">
        <img src="./img/uniqueCuisine.jpg" alt="uniqueCuisine" class="why-choose-img">
        <div class="ms-4">
-        <h6>Unique cuisine</h6>
-        <p>We use the best ingredients to make
-            special and really tasty dishes. Choose
-            what you want to eat every day. You
-            order at the moment.</p>
+            <h6>Unique cuisine</h6>
+            <p>We use the best ingredients to make special and really tasty dishes. Choose what you want to eat every day. You order at the moment.</p>
        </div>
     </div>
-    <div class="col-lg-3 d-flex mt-4 col-10 offset-1 offset-lg-0 ">
+    <div class="offset-1 col-10 offset-lg-0 col-lg-3 d-flex mt-4  ">
         <img src="./img/yoga.jpg" alt="yoga" class="why-choose-img">
         <div class="ms-4">
-         <h6>Yoga & Gym</h6>
-         <p>Sauna and solarium, a fitness
-            corner, bicycles and Mikalto
-            Walking poles available. To stay in
-            shape especially on vacation.</p>
+            <h6>Yoga & Gym</h6>
+            <p>Sauna and solarium, a fitness corner, bicycles and Mikalto Walking poles available. To stay in shape especially on vacation.</p>
         </div>
     </div>
-    <div class="col-lg-3 d-flex  mt-4 col-10 offset-1 offset-lg-0">
+    <div class="col-10 offset-1 offset-lg-0 col-lg-3 d-flex  mt-4">
         <img src="./img/perfectLocation.jpg" alt="perfectLocation" class="why-choose-img">
         <div class="ms-4">
-         <h6>Perfect Location</h6>
-         <p>The hotel is located near some of the
-            most beautiful sandy beaches. This is
-            the hotel to book if you plan to spend
-            a great deal of time.</p>
+            <h6>Perfect Location</h6>
+            <p>The hotel is located near some of the most beautiful sandy beaches. This is the hotel to book if you plan to spend a great deal of time.</p>
         </div>
     </div>
 
@@ -182,7 +175,8 @@
         <p>Proin nec leo vel metus faucibus vehicula. Donec vulputate in magna eget egestas. Aliquam
             ac facilisis ante, sit amet tincidunt ante. Fusce dolor sapien, sodales at velit non, lobortis
             volutpat ante. Integer porta molestie volutpat. Etiam tristique, sem vitae tincidunt gravida,
-            eros nulla dapibus lacus, ut dapibus diam dui vel tortor.</p>
+            eros nulla dapibus lacus, ut dapibus diam dui vel tortor.
+        </p>
         <button type="submit" class="btn text-light  me-5 p-2 text-center">Explore More <i class="fa-solid fa-arrow-right float-end text-center ps-1 pt-1" ></i></button>
     </div>
 
@@ -195,17 +189,18 @@
         <img src="./img/sliderImg1.jpg" alt="Book-hotel" class="explore-book-img">
     </div>
 
-    <div class="col-md-5 offset-1 text-light   mt-5 col-11">
+    <div class="col-md-5 offset-1 text-light mt-5 col-11">
         <p class="m-0 text-warning mt-5 fs-6">RECONNECT WITH NATURE</p>
         <p class="fs-3 fw-light ">Experience a truly unforgettable holiday</p>
         <p>The wilderness and authenticity of this tiny village nestled between steep mountain cliffs and
-            miles and miles of beautiful beaches drew foreign visitors like a magnet.</p>
-        <ul class="">
-        <li>Thermal water with ancient baths</li>
-        <li>Turkish bath</li>
-        <li>Turkish sauna</li>
-        <li>Relax and therapy massage</li>
-       </ul>
+            miles and miles of beautiful beaches drew foreign visitors like a magnet.
+        </p>
+        <ul >
+            <li>Thermal water with ancient baths</li>
+            <li>Turkish bath</li>
+            <li>Turkish sauna</li>
+            <li>Relax and therapy massage</li>
+        </ul>
         <button type="submit" class="btn text-light  me-5 p-2 text-center border border-light px-3">Book your stay <i class="fa-solid fa-arrow-right float-end text-center ps-1 pt-1" ></i></button>
     </div>
 
@@ -216,35 +211,33 @@
 
 <!--Experience section starts here-->
 
-<section class="row mt-5 ">
+<section class="row mt-5 pb-5">
     <p class="col-10 offset-1 mt-4 text-center fs-6 ">EXPERIENCE MATTERS</p>
-    <p class="col-md-8 offset-md-2 offset-1 col-10 mt-3 mb-5 text-center fs-3">Escape from the World see the experience before you
-        feel it. Discover the luxury of Hotel Mikalto
-        View all services</p>
+    <p class="col-md-8 offset-md-2 offset-1 col-10 mt-3 mb-5 text-center fs-3">Escape from the World see the experience before you feel it. Discover the luxury of Hotel Mikalto View all services</p>
     <div class="row mt-4 blue-dot">
-        <div class="col-md-5 col-lg-2 offset-lg-1 col-10 offset-1  border-bottom border-light bg-white  mt-4 ">
-            
+        <div class="col-md-5 col-lg-2 offset-lg-1 col-10 offset-1   bg-white  mt-4 ">
             <img src="./img/sliderImg2.jpg" alt="Wellness" class="w-100 img-fluid me-5 experience-image">
             <p class="mt-4 fs-6">WELLNESS</p>
             <p class="mt-1  fs-4">Dedicated to wellness</p>
             <p class="fs-7">Aman's approach to wellness is focused on
                 personalisation, privacy and seclusion. Local spa
                 rituals with indigenous ingredients, offer a
-                </p>
+            </p>
             <button type="submit" class="btn  me-5 p-2 text-center">Discover More <i class="fa-solid fa-arrow-right float-end text-center ps-1 pt-1" ></i></button>
         </div>
 
-        <div class=" col-md-5 col-lg-2 offset-lg-1 col-10 offset-1  border-bottom border-light  mt-4  ">
+        <div class=" col-md-5 col-lg-2 offset-lg-1 col-10 offset-1    mt-4  ">
             <img src="./img/sliderImg2.jpg" alt="Gift cards" class="w-100 img-fluid me-5 experience-image">
             <p class="mt-4 fs-6">GIFT CARDS</p>
             <p class="mt-1  fs-4">The gift of future travel</p>
             <p class="fs-6">Share extraordinary experiences with the Aman E-
                 Gift Card - delivered instantly and offering
-                memories that last a lifetime.</p>
+                memories that last a lifetime.
+            </p>
             <button type="submit" class="btn  me-5 p-2 text-center">Discover More <i class="fa-solid fa-arrow-right float-end text-center ps-1 pt-1" ></i></button>
         </div>
 
-        <div class="col-md-5 col-lg-2 offset-lg-1 col-10 offset-1 border-bottom border-light bg-white  mt-4 ">
+        <div class="col-md-5 col-lg-2 offset-lg-1 col-10 offset-1  bg-white  mt-4 ">
             
             <img src="./img/sliderImg2.jpg" alt="Mikalto shop" class="w-100 img-fluid me-5 experience-image">
             <p class="mt-4 fs-6">MIKALTO SHOP</p>
@@ -255,7 +248,7 @@
             <button type="submit" class="btn  me-5 p-2 text-center">Discover More <i class="fa-solid fa-arrow-right float-end text-center ps-1 pt-1" ></i></button>
         </div>
        
-        <div class=" col-md-5 col-lg-2 offset-lg-1 col-10 offset-1  border-bottom border-light bg-white  mt-4 ">
+        <div class=" col-md-5 col-lg-2 offset-lg-1 col-10 offset-1   bg-white  mt-4 ">
             <img src="./img/sliderImg2.jpg" alt="experience" class="w-100 img-fluid me-5 experience-image">
             <p class="mt-4 fs-6">EXPRIENCE</p>
             <p class="mt-1  fs-4">Adventures in the wild</p>
@@ -344,7 +337,7 @@
 
 <!--How to get there section starts here-->
 
-<section class="row mt-5 mb-5" >
+<section class="row mt-5 mb-5 pb-5" >
     <div class="col-lg-4 offset-lg-2 col-10 offset-1  col-md-6">
         <img src="./img/flower.jpg" alt="flower">
         <p  class="mt-3">GETTING THERE</p>
@@ -374,7 +367,8 @@
             <div class="ps-3">
                <p class="fw-bold">By van</p>
                <p>Proin nec leo vel metus faucibus vehicula. Donec vulputate in
-                magna eget egestas. Aliquam ac facilisis ante, sit amet.</p>
+                magna eget egestas. Aliquam ac facilisis ante, sit amet.
+               </p>
             </div>
         </div>
     </div>
@@ -389,8 +383,8 @@
 
 <!--Join us section starts here-->
 
-<section class="row join-us pt-5 mt-5 ">
-    <div class="col-md-8  d-flex  join-img">
+<section class="row join-us pt-5 mt-5 pb-5">
+    <div class="offset-1 col-11 offset-md-0 col-md-8  d-flex  join-img">
        <img src="./img/travelImage1.jpg" alt="travelImage1" class="w-50">
        <div class="ms-3">
        <img src="./img/travelImage2.jpg" alt="travelImage2" class="w-50 mb-3">
@@ -411,11 +405,11 @@
 <!--Subscribe section starts here-->
 
 <section class="row text-center">
-    <div class="col-6 offset-3 py-5">
+    <div class="col-10 offset-1 offset-md-3 col-md-6 py-5">
         <p>STORIES DEVELOPED STRAIGHT</p>
-        <p class="fs-3">Get News & Updateto Your Inbox</p>
-        <input type="text " placeholder="Enter your email address" class="fs-5 w-75  ps-4">
-        <button type="submit" class="btn text-light  me-5  text-center border border-light px-3 py-2" style="background-color:  #0a205c;">Subscribe</button>
+        <p class="fs-3">Get News & Update to Your Inbox</p>
+        <input type="text " placeholder="Enter your email address" class="fs-5 ps-4 w-75 ">
+        <button type="submit" class="btn text-light  me-5   text-center border border-light px-3 py-2" style="background-color:  #0a205c;">Subscribe</button>
         <p class="mt-2">Will be  used in accordance with our <span class="text-decoration-underline">Privacy Policy</span></p>
     </div>
 </section>
@@ -425,10 +419,85 @@
 
 <!--footer section starts here-->
 
-<section class="row">
+<section class="row footer">
+    <img src="./img/footerDesign.png" alt="footer">
 
-
-
+    <div class="offset-1 col-5 col-md-2 offset-md-1 mt-5 ">
+        <p class="mb-0 fs-2">MIKALTO</p>
+        <p class="mt-0 fs-6">HOTELS AND RESORTS</p>
+        <p>Duis vitae nulla at nisl finibus pharetra.
+            Nunc porttitor sapien quis euismod
+            sodales. Nullam in ipsum nibh.
+        </p>
+        <div>
+            <p class="fw-bold">Follow us:
+                <i class="fa-brands fa-facebook-f ps-3"></i>
+                <i class="fa-brands fa-twitter ps-2"></i>
+                <i class="fa-brands fa-instagram ps-2"></i>
+                <i class="fa-brands fa-youtube ps-2"></i>
+                <i class="fa-brands fa-pinterest ps-2"></i>
+            </p>
+        </div>
+ 
+    </div>
+    <div class=" col-5 offset-1 col-md-2 offset-md-1 mt-5">
+            
+            <ul class="list-unstyled">
+                <p class="fw-bold">About</p>
+                <li class="mb-1 "><a href="#" target="_blank" class="text-decoration-none footer-links">About us</a></li>
+                <li class="mb-1"><a href="#" target="_blank" class="text-decoration-none footer-links">Careers</a></li>
+                <li class="mb-1"><a href="#" target="_blank" class="text-decoration-none footer-links">Contact us</a></li>
+                <li class="mb-1"><a href="#" target="_blank" class="text-decoration-none footer-links">Blog</a></li>
+                <li class="mb-1"><a href="#" target="_blank" class="text-decoration-none footer-links">Gift Cards</a></li>
+            </ul>
+         
+          
+          
+          
+            
+    </div>
+    <div class="offset-1 col-2 offset-md-0 col-md-2 mt-5">
+        <ul class="list-unstyled">
+            <p class="fw-bold">Services</p>
+            <li class="mb-1"><a href="#" target="_blank" class="text-decoration-none footer-links ">Spa</a></li>
+            <li class="mb-1"><a href="#" target="_blank" class="text-decoration-none footer-links">Experience</a></li>
+            <li class="mb-1"><a href="#" target="_blank" class="text-decoration-none footer-links">Weddings</a></li>
+            <li class="mb-1"><a href="#" target="_blank" class="text-decoration-none footer-links">Dining</a></li>
+            <li class="mb-1"><a href="#" target="_blank" class="text-decoration-none footer-links">Event</a></li>
+        </ul>  
+    </div>
+    <div class="col-2 offset-1 offset-md-0 col-md-2 mt-5">
+        <ul  class="list-unstyled">
+            <p class="fw-bold">Quick Links</p>
+            <li class="mb-1"><a href="#" target="_blank" class="text-decoration-none footer-links">Facilities</a></li>
+            <li class="mb-1"><a href="#" target="_blank" class="text-decoration-none footer-links">Accommodation</a></li>
+            <li class="mb-1"><a href="#" target="_blank" class="text-decoration-none footer-links">Reservation</a></li>
+            <li class="mb-1"><a href="#" target="_blank" class="text-decoration-none footer-links">Why Choose Us</a></li>
+            <li class="mb-1"><a href="#" target="_blank" class="text-decoration-none footer-links">Our Restaurant</a></li>
+        </ul> 
+    </div>
+    <div class="col-5 offset-1 offset-md-0 col-md-2 mt-5">
+           <p class="fw-bold">Contact Us</p>
+           <p class="mb-0 footer-links">Total Free Customer Support</p>
+           <p class="mt-0 fw-bold ms-md-0 ms-4">+8980908899</p>
+           <p class="mb-0 footer-links">Need Live Support?</p>
+           <p class="ms-md-0 ms-4">a@hh</p>
+    </div>
+    
+    <div class="offset-1 col-11 d-flex mt border border-top-1 border-start-0 border-bottom-0 border-end-0 pt-3 position-relative mt-3 ">
+       
+        <p class="footer-links">Copyright <i class="fa-regular fa-copyright"></i> 2022 Mikalto JWS.</p>
+        <ul class="d-flex gap-4 ms-5 list-unstyled">
+            <li><a href="#" target="_blank" class="text-decoration-none footer-links">Privacy</a></li>
+            <li><a href="#" target="_blank" class="text-decoration-none footer-links">Terms</a></li>
+            <li><a href="#" target="_blank" class="text-decoration-none footer-links">Sitemap</a></li>
+        </ul>
+        <div class="position-absolute globe d-flex gap-3">
+            <i class="fa-solid fa-globe mt-1"></i>
+            <p>EN+</p>
+        </div>
+    </div>
+  
 </section>
 
     <script src="./app.js"></script>
