@@ -1,15 +1,58 @@
 
-  [
+ 
     { 
      "hero":
       {
-       "image":"https://media.istockphoto.com/id/1331465591/photo/3d-render-of-a-luxury-hotel-swimming-pool.jpg?s=612x612&w=is&k=20&c=6iZ78f5EK6IEW59A0XGDSW0k4GrnT1dzCDqm5_gDeYo=",
+       "image":"https://images.unsplash.com/photo-1506059612708-99d6c258160e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2069&q=80",
        "heading":"Enjoy Your dream vacation",
        "subHeading":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
        "buttonAbout":"About Us",
        "buttonView":"View More"
    
-     }
+     },
+    "welcome":{
+      "image1":"https://images.unsplash.com/photo-1618935810018-dd4adbb64b78?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80",
+      "image2":"https://images.unsplash.com/photo-1606202598125-e2077bb5ebcc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80",
+      "image3":"https://images.unsplash.com/photo-1568605114967-8130f3a36994?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
+    },
+
+
+
+     "sliderImages":
+     {
+       "sliderImg1":"https://images.unsplash.com/photo-1631049307264-da0ec9d70304?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2340&q=80",
+       "sliderImg2":"https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2340&q=80",
+       "sliderImg3":"https://images.unsplash.com/photo-1591088398332-8a7791972843?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1974&q=80"
+     },
+     "roomDetails":[
+      {
+        "roomType":"Normal Room",
+        "fare":"From: $100 / night",
+        "bedType":"Prince size Image",
+        "capacity":"1 adults, 0 children",
+        "area":"45 sqm",
+        "view":"normal view"
+
+      },
+      {
+        "roomType":"Standard Room",
+        "fare":"From: $150 / night",
+        "bedType":"Queen size Image",
+        "capacity":"2 adults, 1 children",
+        "area":"55 sqm",
+        "view":"garden view"
+      },
+      {
+        "roomType":"Deluxe Room",
+        "fare":"From: $160 / night",
+        "bedType":"King size Image",
+        "capacity":"1 adults, 1children",
+        "area":"55 sqm",
+        "view":"city view"
+      }
+     ]
+
+
    }
-   ]
+ 
   
