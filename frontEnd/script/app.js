@@ -69,7 +69,7 @@ function dynamicImageslider(data) {
       imageCount = sliders.length;
     }
      
-    let j=imageCount % sliders.length;
+    let j = imageCount % sliders.length;
     roomType.innerHTML = data["roomDetails"][j].roomType;
     roomFare.innerHTML = data["roomDetails"][j].fare;
     bedType.innerHTML = data["roomDetails"][j].bedType;
@@ -87,14 +87,14 @@ function dynamicImageslider(data) {
     if (imageCount === sliders.length - 1) {
       imageCount = -1;
     }
-    let k=imageCount+1;
+    let k = imageCount + 1;
     roomType.innerHTML = data["roomDetails"][k].roomType;
     roomFare.innerHTML = data["roomDetails"][k].fare;
     bedType.innerHTML = data["roomDetails"][k].bedType;
     headCount.innerHTML = data["roomDetails"][k].capacity;
     roomArea.innerHTML = data["roomDetails"][k].area;
     roomView.innerHTML = data["roomDetails"][k].view;
-    sliders[imageCount + 1].classList.remove("hide");
+    sliders[imageCount + 1 ].classList.remove("hide");
     imageCount += 1;
   });
   }
