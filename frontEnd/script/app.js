@@ -69,7 +69,7 @@ function dynamicImageslider(data) {
       imageCount = sliders.length;
     }
      
-    let j = imageCount % sliders.length;
+    let j = imageCount -1;
     roomType.innerHTML = data["roomDetails"][j].roomType;
     roomFare.innerHTML = data["roomDetails"][j].fare;
     bedType.innerHTML = data["roomDetails"][j].bedType;
