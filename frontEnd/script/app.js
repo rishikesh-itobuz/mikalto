@@ -94,7 +94,7 @@ function dynamicImageslider(data) {
     headCount.innerHTML = data["roomDetails"][k].capacity;
     roomArea.innerHTML = data["roomDetails"][k].area;
     roomView.innerHTML = data["roomDetails"][k].view;
-    sliders[imageCount + 1 ].classList.remove("hide");
+    sliders[imageCount + 1].classList.remove("hide");
     imageCount += 1;
   });
   }
