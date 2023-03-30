@@ -1,4 +1,5 @@
 
+
 /* Navbar section styles starts here */
 
 .red-dot {
@@ -15,6 +16,7 @@
 
 .visibility {
     display: none !important;
+
 }
 
 .nav-item:hover {
@@ -36,26 +38,35 @@
     background-image: url('../img/hero.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    
-  
+    margin: 0% !important;
 
 }
  
 #about-button:hover {
-     color: black;
+    background: none !important;
+    background: transparent !important;
+    color: #ffffff !important;
+
+}
+
+#homestay-button:hover {
+ background-color: #ffffff !important;
+ color: black !important;
 }
 
 .hero-form {
     background-color: #ffffff;
+
 }
 
 .input-tag {
-
     background-color: #ffffff;
+
 }
 
 .input-tag:focus {
    outline: none;
+
 }
 
 /*Welcome section starts here*/
@@ -81,7 +92,7 @@
         position: absolute;
         left: 20%;
         top: 65%;
-        height:30vh !important;
+        height:40vh !important;
         width: 55vw !important;
 
     }
@@ -91,26 +102,26 @@
 @media (min-width:768px) {
 
     .welcome-image1 {
-        height:55vh !important;
-        width: 23vw !important;
+        height:85% !important;
+        width: 53% !important;
     
     }
 
     .welcome-image2 {
         position: absolute;
         left: 30%;
-        top: 10vh;
-        height:40vh !important;
-        width: 35vw !important;
+        top: 25vh;
+        height:65% !important;
+        width: 75% !important;
     
     }
 
     .welcome-image3 {
         position: absolute;
         left: 20%;
-        top: 32vh;
-        height:30vh !important;
-        width: 35vw !important;
+        top: 58vh;
+        height:50% !important;
+        width: 80% !important;
     
     }
 
@@ -165,10 +176,11 @@
 
 .explore-booking {
     background-color: #0a205c;
+    
 }
 
 .explore-book-img {
-    height: 470px !important;
+    height: 100% !important;
     width: 100% !important;
 }
 

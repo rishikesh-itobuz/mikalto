@@ -49,12 +49,12 @@ function dynamicDataHeroSection(data) {
   document.getElementById("about-button").innerText = data["hero"].buttonAbout;
   document.getElementById("homestay-button").innerText = data["hero"].buttonView;
 }
-
+let imageCount = 0;
 function dynamicImageslider(data) {
   document.getElementById("silder-img1").src = data["sliderImages"].sliderImg1;
   document.getElementById("silder-img2").src = data["sliderImages"].sliderImg2;
   document.getElementById("silder-img3").src = data["sliderImages"].sliderImg3;
-  let imageCount = 0;
+
   const previousButton = document.getElementById("previous");
   const nextButton = document.getElementById("next");
   const sliders = document.getElementsByClassName("sliders");
