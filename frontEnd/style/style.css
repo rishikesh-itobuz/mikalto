@@ -1,5 +1,3 @@
-
-
 /* Navbar section styles starts here */
 
 .red-dot {
@@ -52,6 +50,7 @@
 #homestay-button:hover {
  background-color: #ffffff !important;
  color: black !important;
+
 }
 
 .hero-form {
@@ -74,7 +73,7 @@
 @media (min-width:300px){
 
     .welcome-image1 {
-        height:60vh !important;
+        height:50vh !important;
         width: 45vw !important;
        
     }
@@ -83,7 +82,7 @@
         position: absolute;
         left: 30%;
         top: 16%;
-        height:46vh !important;
+        height:40vh !important;
         width: 60vw !important;
        
     }
@@ -91,9 +90,10 @@
     .welcome-image3 {
         position: absolute;
         left: 20%;
-        top: 65%;
-        height:40vh !important;
+        top: 55%;
+        height:30vh !important;
         width: 55vw !important;
+     ;
 
     }
 }
@@ -110,7 +110,7 @@
     .welcome-image2 {
         position: absolute;
         left: 30%;
-        top: 25vh;
+        top: 22%;
         height:65% !important;
         width: 75% !important;
     
@@ -119,7 +119,7 @@
     .welcome-image3 {
         position: absolute;
         left: 20%;
-        top: 58vh;
+        top: 50%;
         height:50% !important;
         width: 80% !important;
     
@@ -131,10 +131,12 @@
 
 .standard-room {
     background-color: #0a205c;
+
 }
 
 .hide {
     display: none;
+
 }
 
 #previous {
@@ -150,11 +152,13 @@
     top: 45%;
     left: 90%;
     border-radius: 50%;
+
 }
 @media (min-width:300px) {
     .sliders {
         height: 350px !important;
         width: 100% !important;
+
     }
 }
 
@@ -162,6 +166,7 @@
     .sliders {
         height: 500px !important;
         width: 100% !important;
+
     }
 }
 
@@ -170,6 +175,7 @@
 .why-choose-img {
     width: 80px !important;
     height: 60px !important;
+
 }
 
 /* Explore  and booking section starts here */
@@ -188,6 +194,7 @@
 
 .experience-image {
     height: 350px !important;
+
 }
 
 /* Say hello section starts gere */
@@ -203,6 +210,7 @@
 
 .review {
     background-color:#fffaf6;
+
 }
 
 .client-image {
@@ -236,11 +244,13 @@
 @media (min-width:768px) {
 .email-subscribe {
   width: 50vw;
+
 }
 
 .email-input:focus {
     outline: none !important;
     box-shadow: none;
+
 }
 }
 /* Footer section starts here */

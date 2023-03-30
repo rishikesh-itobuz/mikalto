@@ -99,15 +99,19 @@ function dynamicImageslider(data) {
   });
   }
 
+
 const form = document.getElementById("form");
 form.addEventListener("submit", function (e) {
   e.preventDefault();
+
   let formDetails = {
     checkInTime: document.getElementById("check-in").value,
     checkOutTime: document.getElementById("check-out").value,
     adults: document.getElementById("adult-count").value,
     childrens: document.getElementById("child-count").value,
   };
+
+
   fetch("http://localhost:8000/", {
     method: "POST",
     headers: {
@@ -124,7 +128,7 @@ form.addEventListener("submit", function (e) {
 });
 
 
-//Slider section starts here
+
 
 
 
