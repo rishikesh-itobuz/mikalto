@@ -23,7 +23,7 @@ closeIcon.addEventListener("click", () => {
 
 
 async function dataGetter() {
-  const res = await fetch("http://localhost:8000/")
+  const res = await fetch("http://localhost:8080/")
     .then((res) => {
       return res.json();
     })
@@ -112,7 +112,7 @@ form.addEventListener("submit", function (e) {
   };
 
 
-  fetch("http://localhost:8000/", {
+  fetch("http://localhost:8080/", {
     method: "POST",
     headers: {
       "Content-type": "application/json; charset=UTF-8",
